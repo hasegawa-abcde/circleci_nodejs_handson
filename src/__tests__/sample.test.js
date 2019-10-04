@@ -35,3 +35,7 @@ test('helloノテスト2', () => {
 test('helloノテスト3', () => {
     expect(hello('shimohama')).toBe('yeah');
 });
+
+test('helloノテスト4', () => {
+    expect(hello('someya')).toBe('boy');
+});
