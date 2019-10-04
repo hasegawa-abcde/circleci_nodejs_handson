@@ -18,3 +18,7 @@ test('', () => {
     let clazz = new Clazz(1, 2);
     expect(clazz.value).toBe(3);
 }) 
+
+test('helloノテスト', () => {
+    expect(hello('hasegawa')).toBe('hello');
+});
