@@ -1,7 +1,7 @@
 function hello(str) {
-    if (str.beginWith("h")) {
+    if (str.startsWith("h")) {
         return "hello";
-    } else if (str.beginWith('b')) {
+    } else if (str.startsWith('b')) {
         return "boy";
     } else {
         return "yeah";
