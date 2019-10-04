@@ -22,3 +22,11 @@ test('', () => {
 test('helloノテスト', () => {
     expect(hello('hasegawa')).toBe('hello');
 });
+
+test('helloノテスト2', () => {
+    expect(hello('boooo')).toBe('boy');
+});
+
+test('helloノテスト3', () => {
+    expect(hello('shimohama')).toBe('yeah');
+});
